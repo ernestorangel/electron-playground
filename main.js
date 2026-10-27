@@ -3,6 +3,9 @@ console.log("hello world");
 const electron = require("electron");
 const app = electron.app;
 const BrowserWindow = electron.BrowserWindow;
+// Another option (as shown in Electrion web page):
+// const { app, BrowserWindow } = require("electron/main");
+
 const path = require("path");
 const url = require("url");
 

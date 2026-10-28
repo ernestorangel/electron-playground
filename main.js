@@ -1,4 +1,4 @@
-console.log("hello world");
+console.log("from main.js");
 
 const electron = require("electron");
 const app = electron.app;
